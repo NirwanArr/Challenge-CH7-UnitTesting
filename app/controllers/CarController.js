@@ -2,7 +2,7 @@ const { Op } = require("sequelize");
 const ApplicationController = require("./ApplicationController");
 
 class CarController extends ApplicationController {
-  constructor({ carModel, userCarModel, dayjs }) {
+  constructor ({ carModel, userCarModel, dayjs }) {
     super();
     this.carModel = carModel;
     this.userCarModel = userCarModel;
